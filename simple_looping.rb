@@ -56,4 +56,8 @@ def for_iterator(number_of_times)
 
   phrase = "Welcome to Flatiron School's Web Development Course!"
 
+  list = 1..7
+    	for spell in list
+    		puts phrase
+    	end
 end
